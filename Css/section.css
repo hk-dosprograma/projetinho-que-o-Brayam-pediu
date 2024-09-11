@@ -1,0 +1,14 @@
+section{   
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+ 
+}
+  #img_do_meio{
+    width: 15vw;
+    height: 15vh;
+ 
+  }
