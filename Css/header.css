@@ -2,24 +2,34 @@ header {
     width: 100vw;
     height: 10vh;
 
+    background-color: rgb(39, 39, 39);
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
 
 }
-header div{   
+
+header div {
     width: 45vw;
     height: 10hw;
 
-     display: flex;
+    display: flex;
     flex-direction: row;
     align-items: center;
 
- 
+
 }
+
+#imgLogo {
+
+
+    border-radius: 15vw;
+
+}
+
 #img_logo {
-    width: 10vw;
+    width: 6vw;
     height: 10vh;
     margin: 0 2vw;
 }
@@ -30,4 +40,31 @@ header div{
 
 #botoes {
     justify-content: space-evenly;
+}
+
+.btn {
+    background-color: #2C3E50;
+    border-radius: 5vw;
+    border: none;
+}
+
+#n_sei {
+
+    color: white;
+
+}
+
+@media(max-width: 480px) {
+
+    #img_logo {
+        width: 18vw;
+        height: 10vh;
+        margin: 0 2vw;
+    }
+
+    #logo_DoadorDeTerra {
+        font-size: 6vw;
+    }
+
+   
 }

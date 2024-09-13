@@ -1,14 +1,43 @@
-section{   
-    width: 100vw;
-    height: 80vh;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
- 
+section {
+  width: 100vw;
+  height: 80vh;
+  background-color: #181818;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+
 }
-  #img_do_meio{
-    width: 15vw;
-    height: 15vh;
- 
+
+#img_do_meio {
+  width: 30vw;
+  height: 40vh;
+
+}
+
+#imgDoMeio {
+
+  border-radius: 5vw;
+
+}
+
+div h1 {
+
+  color: #3498DB
+}
+
+@media(max-width: 480px) {
+
+  #img_do_meio {
+    width: 50vw;
+    height: 30vh;
+  
   }
+
+  div h1{
+
+    font-size: 3vw;
+  }
+
+
+}
