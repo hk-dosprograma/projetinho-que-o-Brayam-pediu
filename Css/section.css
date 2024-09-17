@@ -10,6 +10,7 @@ section {
 }
 
 #img_do_meio {
+
   width: 30vw;
   height: 40vh;
 
@@ -29,7 +30,7 @@ div h1 {
 @media(max-width: 480px) {
 
   #img_do_meio {
-    width: 50vw;
+    width: 70vw;
     height: 30vh;
   
   }

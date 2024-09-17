@@ -6,15 +6,36 @@ footer {
     justify-content: end;
     background-color: rgb(39, 39, 39);
 }
+.btn_footer:hover{
+    width: 11vw ;
+}
+.btn_footer {
+    width: 3.8vw;
+    height: 6.5vh;
+    background-color: #2C3E50;
+    border-radius: 5vw;
+    border: none;
+    transition: all 0.3s ease-in-out;
+    cursor:pointer
+}
+
 
 #botao_github {
-
     border: none;
     border-radius: 30vw;
+
+}
+#botao_github i {
+    font-size: 3.3vw;
 
 }
 
 @media(max-width: 480px) {
 
+    .btn_footer {
+        width: 3.8vw;
+        height: 2vh;
+       
+    }
     
 }
