@@ -20,10 +20,12 @@ header div {
 
 
 }
-#imgLogo:hover{
-transform: rotate(180deg);
-transition: all 0.3s ease-in-out;
+
+#imgLogo:hover {
+    transform: rotate(180deg);
+    transition: all 0.3s ease-in-out;
 }
+
 #imgLogo {
     border-radius: 15vw;
 }
@@ -44,16 +46,18 @@ transition: all 0.3s ease-in-out;
 }
 
 .btn {
-   
+
     background-color: #2C3E50;
     border-radius: 5vw;
     border: none;
     transition: all 0.3s ease-in-out;
-    cursor:pointer
+    cursor: pointer
 }
-.btn:hover{
-    width: 9vw ;
+
+.btn:hover {
+    width: 9vw;
 }
+
 #n_sei {
 
     color: white;
@@ -61,7 +65,6 @@ transition: all 0.3s ease-in-out;
 }
 
 @media(max-width: 480px) {
-
     #img_logo {
         width: 18vw;
         height: 10vh;
@@ -71,5 +74,9 @@ transition: all 0.3s ease-in-out;
     #logo_DoadorDeTerra {
         font-size: 6vw;
     }
-   
+
+    .btn {
+        font-size: 1vh;
+    }
+
 }

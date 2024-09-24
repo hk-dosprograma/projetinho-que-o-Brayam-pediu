@@ -18,7 +18,7 @@ section {
 
 #imgDoMeio {
 
-  border-radius: 5vw;
+  border-radius: 3vw;
 
 }
 
@@ -28,16 +28,17 @@ div h1 {
 }
 
 @media(max-width: 480px) {
-
-  #img_do_meio {
-    width: 70vw;
-    height: 30vh;
-  
+  section {
+    flex-direction: column;
   }
 
-  div h1{
+  #img_do_meio {
+    width: 80vw;
+    height: 30vh;
+  }
 
-    font-size: 3vw;
+  section h1 {
+    font-size: 6vw;
   }
 
 
