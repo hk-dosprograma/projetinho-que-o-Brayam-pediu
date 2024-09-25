@@ -1,0 +1,50 @@
+#icon_menu{
+    width: 18vh;
+    height: 18vh;
+    background-color: rgb(255, 158, 166);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+    position: absolute;
+    top: 60vh;
+    left: 0vw;
+}
+#icon_menu div{
+     width: 6vw;
+     height: 3vh;
+     background-color: rgb(128, 1, 12);
+     border-radius: 6vh;
+
+     transition: all 0.5s ease-in-out;
+    
+     
+}
+#icon_menu:hover #barra_um{
+    transform: rotate(45deg);
+    position: absolute;
+    margin-top: 3vh;
+}
+
+#icon_menu:hover #barra_dois{
+    display: none;
+}
+
+#icon_menu:hover #barra_tres{
+    transform: rotate(315deg);
+    position: absolute;
+    margin-top: 3vh;
+}
+#menu{ 
+    width: 100vw;
+    height: 18vh;
+    background-color: blueviolet;
+    position: absolute;
+    top: 60vh;
+    left: -100vw;
+    z-index: 0;
+
+    transition: all 0.3s ease-in-out;
+}

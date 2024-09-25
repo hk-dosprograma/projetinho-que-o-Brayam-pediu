@@ -17,11 +17,13 @@ section {
     display: flex;
     flex-direction: row;
     position: absolute;
+    transition: all 0.3s ease-in-out;
 }
 .banner{
     width: 90vw;
     height: 35vh ;
     margin: 0 5vw;
+    border-radius: 2vw;
 }
 #banner_0{
     background-color: rgb(255, 0, 157);
@@ -55,4 +57,10 @@ section {
     height: 5vh;
     border-radius: 50%;
     background-color: aliceblue;
+}
+
+.btns_banner:hover{
+    cursor: pointer;
+    width: 3vw;
+    height: 6vh;
 }
