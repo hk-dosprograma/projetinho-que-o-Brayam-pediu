@@ -12,32 +12,37 @@ section {
 #banners {
     width: 400vw;
     height: 35vh;
-    left:0vw;
+    left: 0vw;
     top: 25vh;
     display: flex;
     flex-direction: row;
     position: absolute;
     transition: all 0.3s ease-in-out;
 }
-.banner{
+
+.banner {
     width: 90vw;
-    height: 35vh ;
+    height: 35vh;
     margin: 0 5vw;
     border-radius: 2vw;
 }
-#banner_0{
-    background-color: rgb(255, 0, 157);
+
+#banner_0 {
+    background-color: rgb(165, 165, 165);
 }
-#banner_1{
-    background-color: rgb(195, 0, 255);
+
+#banner_1 {
+    background-color: rgb(122, 122, 122);
 }
-#banner_2{
-    background-color: rgb(4, 0, 255);
+
+#banner_2 {
+    background-color: rgb(77, 77, 77);
 }
-#banner_3{
-    background-color: rgb(255, 0, 0);
+
+#banner_3 {
+    background-color: rgb(34, 34, 34);
 }
- 
+
 #btns_banners {
     width: 16vw;
     height: 5vh;
@@ -53,13 +58,14 @@ section {
 }
 
 .btns_banner {
+    border: none;
     width: 2.5vw;
     height: 5vh;
     border-radius: 50%;
-    background-color: aliceblue;
+    background-color: rgb(21, 120, 207);
 }
 
-.btns_banner:hover{
+.btns_banner:hover {
     cursor: pointer;
     width: 3vw;
     height: 6vh;

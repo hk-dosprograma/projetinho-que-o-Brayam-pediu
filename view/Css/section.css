@@ -24,7 +24,7 @@ section {
 
 div h1 {
 
-  color: #3498DB
+  color: #3498DB;
 }
 
 @media(max-width: 480px) {
