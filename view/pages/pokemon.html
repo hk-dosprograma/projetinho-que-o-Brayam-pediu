@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/view/Css/pokemon/pokemon.css">
+    <script src="https://kit.fontawesome.com/ae79a02159.js" crossorigin="anonymous"></script>
+    <script src="/controller/index.js" defer></script>
+    <title>projetinho que o bryam ask</title>
+</head>
+
+<body>
+    <header>
+        <div id="logo_DoadorDeTerra">
+            <div id="img_logo">
+                <img id="imgLogo"
+                    src="https://img.freepik.com/vetores-premium/design-de-logotipo-de-guaxinim_93835-89.jpg?w=826">
+            </div>
+            <h6 id="n_sei"> raccon company</h6>
+        </div>
+        <div id="botoes">
+            <button class="btn" id="botao_f" onclick="window.location.href='./projetos.html'">
+                <h1>projetos</h1>
+            </button>
+            <button class="btn" id="botao_s" onclick="window.location.href='./index.html'"></button>
+                <h1>home</h1>
+            </button>
+            <button class="btn" id="botao_t">
+                <h1>sobre mim</h1>
+            </button>
+        </div>
+    </header>
+    <section>
+        <section id="telaCadastro">
+            <div id="inputs_cad">
+                <input class="Putos" id="salarioCad" type="text" placeholder="salario">
+                <input class="Putos" id="vagaCad" type="text" placeholder="vaga">
+                <input class="Putos" id="descricaoCad" type="text" placeholder="descricao">
+                <input class="Putos" id="horarioCad" type="text" placeholder="horario">
+                <div id="buttons_telaCad">
+                    <button onclick="recolheDados()">Salvar</button>
+                    <button onclick="escondeTelaCad()">Cancelar</button>
+                </div>
+            </div>
+        </section>
+        <section id="telaAtt">
+            <div id="inputs_att">
+                <input class="PutosAtt" id="salario" type="text" placeholder="salario">
+                <input class="PutosAtt" id="vaga" type="text" placeholder="vaga">
+                <input class="PutosAtt" id="descricao" type="text" placeholder="descricao">
+                <input class="PutosAtt" id="horario" type="text" placeholder="horario">
+                <div id="buttons_telaCad">
+                    <button onclick="recolheDadosAtt()">Salvar</button>
+                    <button onclick="escondeTelaAtt()">Cancelar</button>
+                </div>
+            </div>
+        </section>
+    <footer id="footer">
+        <button class="btn_footer" id="botao_github">
+            <h1>Github<i id="logogithub" class="fa-brands fa-github fa-2xl"></i> </h1>
+        </button>
+    </footer>
+</body>
+
+</html>
