@@ -1,4 +1,4 @@
-import { cadastrarCartao } from "../services/formacao/cartoes_S.js"
+import { cadastrarCartao } from "../../services/formacao/cartoes_S.js"
 
 let telaCad = document.getElementById('telaCadastro')
 

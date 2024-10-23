@@ -1,4 +1,4 @@
-import { atualizarCartao } from "../services/formacao/cartoes_S.js";
+import { atualizarCartao } from "../../services/formacao/cartoes_S.js";
 
 let telaAtt = document.getElementById('telaAtt')
 let id;

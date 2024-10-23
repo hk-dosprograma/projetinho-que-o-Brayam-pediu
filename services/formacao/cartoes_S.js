@@ -1,8 +1,8 @@
-import { criarCartoes } from "./../../view/js/cartao_V.js";
+import { criarCartoes } from "../../view/js/cartoes_V.js";
 
 export async function pegarCartoes() {
    try {
-      const response = await fetch('http://localhost:3000/salario')
+      const response = await fetch('http://localhost:3000/nome')
       if (response.status === 200) {
          const data = await response.json()
          const cartoes = data.cartoes;
@@ -21,7 +21,7 @@ export async function pegarCartoes() {
 
 export async function excluirCartoes(index) {
    try {
-      const response = await fetch('http://localhost:3000/salario', {
+      const response = await fetch('http://localhost:3000/nome', {
          method: 'DELETE',
          headers: {
             'Content-Type': 'application/json',

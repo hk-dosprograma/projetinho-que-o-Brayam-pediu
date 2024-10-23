@@ -1,7 +1,7 @@
-import { mostraTelaAtt } from "./../../controller/cartoes/telaAtt.js";
+import { mostraTelaAtt } from "../../controller/cartoes/telaAtt.js";
 import { mostraTelaCad } from "../../controller/cartoes/telaCad.js";
 import { excluirCartoes } from "../../services/formacao/cartoes_S.js";
-import { pegarCartoes } from "../../services/formação/cartoes_S.js";
+import { pegarCartoes } from "../../services/formacao/cartoes_S.js";
 
 export async function criarCartoes() {
     
@@ -17,20 +17,16 @@ export async function criarCartoes() {
         textos.className = 'textos'
 
         let h1 = document.createElement('h1')
-        h1.textContent = cartoes[i].salario
+        h1.textContent = cartoes[i].nome
         h1.className = 'ct_font';
 
         let h5 = document.createElement('h5')
-        h5.textContent = cartoes[i].vaga
+        h5.textContent = cartoes[i].img
         h5.className = 'ct_font';
 
         let p = document.createElement('p')
         p.textContent = cartoes[i].descricao
         p.className = 'ct_font'
-
-        let h2 = document.createElement('h2')
-        h2.textContent = cartoes[i].horario
-        h2.className = 'ct_font'
 
         let rodape = document.createElement('div')
         rodape.className = 'rodape_card';
@@ -58,7 +54,6 @@ export async function criarCartoes() {
         textos.appendChild(h1)
         textos.appendChild(h5)
         textos.appendChild(p)
-        textos.appendChild(h2)
 
         btns.appendChild(button)
         btns.appendChild(atualizarbutton)
